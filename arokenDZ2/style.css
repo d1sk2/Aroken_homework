@@ -1,0 +1,30 @@
+
+/* CSS первый блок */
+.first_block {
+    color: white;
+    background-color: #3b3a3a;
+}
+
+.first_block-text {
+    color: #d38ad3;
+}
+
+.red_block {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+/* CSS второй блок */
+.second_block {
+    width: 300px;
+    background-color: #cc95ff;
+}
+
+.second_block-text span {
+    background-color: #7c44bd;
+}
+
+.second_block-text {
+    color: #fff;
+}
