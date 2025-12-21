@@ -1,0 +1,13 @@
+table, caption, th, tr, td {
+    border: solid 1px #000;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+    border-bottom: 0px;
+}
+
+span {
+    color: red;
+}
