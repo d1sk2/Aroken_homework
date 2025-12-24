@@ -1,0 +1,115 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    color: #535755;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------ */
+
+.header {
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__inner-title {
+    font-family: Oswald;
+    font-weight: 600;
+    font-size: 48px;
+    max-width: 596px;
+    text-transform: uppercase;
+    line-height: 115%;
+    margin-bottom: 40px;
+    color: #2c332f;
+}
+.header__inner-text {
+    margin-bottom: 20px;
+    line-height: 130%;
+}
+
+.header__inner-text:nth-child(3) {
+    margin-bottom: 0;
+    padding-bottom: 80px;
+}
+
+.header__inner-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------------------------------------------------- */
+.group {
+    padding-bottom: 80px;
+}
+.group__inner-title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #2c332f;
+    line-height: 115%;
+    margin-bottom: 40px;
+}
+.group__inner-text {
+    font-family: "Ubuntu", sans-serif;
+    line-height: 130%;
+    margin-bottom: 20px;
+    max-width: 744px;
+}
+
+.group__list-item {
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 16px;
+}
+
+.group__list-item::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #3596ed;
+    left: 0;
+    top: 25%;
+}
+
+.group__list-item:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+.new {
+    padding-bottom: 120px;
+}
+
+.new__inner-title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+    margin-bottom: 40px;
+}
+
+.new__inner-video {
+    margin-bottom: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.new__inner-text {
+    line-height: 130%;
+}
